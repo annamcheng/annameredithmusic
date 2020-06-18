@@ -1,5 +1,8 @@
 body {
   font-family: "Inconsolata", monospace;
+  background: rgb(223,207,205);
+  background: radial-gradient(214deg, rgba(223,207,205,1) 0%, rgba(241, 233, 231, 0.715) 55%, rgba(227,200,192,1) 100%);
+  );
 }
 
 .main {
@@ -12,7 +15,7 @@ body {
   display: block;
   height: 50px;
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
   color: #7f6869;
   font-size: 40px;
   font-weight: bold;
@@ -97,7 +100,8 @@ a {
 }
 a:hover {
   font-weight: bold;
-  color: #bcd9e0;
+  color: #462719;
   letter-spacing: 2px;
   transition: 0.5s ease-out;
 }
+
