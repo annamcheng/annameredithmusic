@@ -1,7 +1,11 @@
 body {
   font-family: "Inconsolata", monospace;
-  background: rgb(223,207,205);
-  background: radial-gradient(214deg, rgba(223,207,205,1) 0%, rgba(241, 233, 231, 0.715) 55%, rgba(227,200,192,1) 100%);
+  background: rgb(211, 186, 187);
+  background: linear-gradient(
+    90deg,
+    rgba(211, 186, 187, 1) 0%,
+    rgba(219, 198, 199, 1) 45%,
+    rgba(242, 231, 231, 1) 100%
   );
 }
 
@@ -16,13 +20,15 @@ body {
   height: 50px;
   margin: 10px;
   padding: 20px;
-  color: #7f6869;
   font-size: 40px;
+  background: -webkit-linear-gradient(rgb(187, 155, 155), #8d8d8d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
   letter-spacing: 2px;
   text-align: center;
 }
-.dropbox {
+/* .dropbox {
   position: relative;
   width: 700px;
   height: 500px;
@@ -39,7 +45,7 @@ body {
   text-align: center;
   font-size: 72px;
   color: #e6e6e6;
-}
+} */
 
 .image-parent {
   display: flex;
@@ -97,11 +103,54 @@ body {
 
 a {
   text-decoration: none;
+  font-weight: bold;
+  color: white;
 }
 a:hover {
   font-weight: bold;
-  color: #462719;
+  color: #969393;
   letter-spacing: 2px;
   transition: 0.5s ease-out;
 }
 
+.aboutMe {
+  background-image: url("https://res.cloudinary.com/dmxibubc5/image/upload/v1592865368/tumblr_mfznxqzo041qzdon6o6_1280_gkwdlv.jpg");
+}
+.aboutMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.mainText {
+  height: 30%;
+  width: 35%;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+h6 {
+  font-size: 15px;
+  color: white;
+}
+
+#homeLink{
+  color: #453521;
+  font-weight: bold;
+ 
+}
+@media (min-width: 545px) and (max-width: 768px){
+  main{
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-parent{
+  flex-direction: column;
+}
+  main{
+    width 33%;
+  }
+}
