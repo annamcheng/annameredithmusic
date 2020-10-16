@@ -114,7 +114,9 @@ a:hover {
 }
 
 .aboutMe {
-  background-image: url("https://res.cloudinary.com/dmxibubc5/image/upload/v1592865368/tumblr_mfznxqzo041qzdon6o6_1280_gkwdlv.jpg");
+  background: url("https://res.cloudinary.com/dmxibubc5/image/upload/v1592865368/tumblr_mfznxqzo041qzdon6o6_1280_gkwdlv.jpg");
+  background-size: cover;
+  background-color: #DDDAD9;
 }
 .aboutMain {
   display: flex;

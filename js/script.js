@@ -77,5 +77,3 @@ song2.addEventListener("click", function() {
 song3.addEventListener("click", function() {
   playSongClicked(3);
 });
-
-//If you have time, DRY code to for loop
